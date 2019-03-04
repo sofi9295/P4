@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+section{ 
+    width: 100%; 
+    height: 800px;
+    float:left;
+}
+
+#pageA{
+    background-color:#bcd531;    
+}
+#pageB{
+    background-color:#e20a19;  
+} 
+#pageC{
+    background-color:#ee6f56; 
+}
+#pageD{
+    background-color:#b59f53;  
+}
+#pageE{
+    background-color:#57bfc7;  
+}
+nav{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+ul{
+    width: fit-content; margin: auto; list-style: none;
+}
+ul li{
+    float: left;margin-right: 30px;
+}
+ul li a{
+    color: #fff;text-decoration: none;
+}
+ul li a:hover{
+    text-decoration: underline;
+}
+h1{
+    color: #fff; text-align: center; margin-top:70px;}
+
+.grid {
+  display: grid;
+  grid: 150px / auto auto auto;
+}
+.gridbox {
+  display: grid;
+  grid: 150px / auto auto auto;
+}
+.gridboxen {
+  display: grid;
+  grid: 150px / auto auto auto;
+}
+.gridboxxen {
+  display: grid;
+  grid: 150px / auto auto auto;
+}
+.gridboxxxen {
+  display: grid;
+  grid: 150px / auto auto auto;
+}
+
+.billedeA{
+  float: right;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.billedeB{
+    
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.billedeC{
+    
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+@media screen and (min-width: 200px){}
+@media screen and (max-width: 480px){}
+@media screen and (max-width: 900px){}
+     
+    
+    
+         
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
